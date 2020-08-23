@@ -1,6 +1,6 @@
 'use strict'
 
-function repeat(times, stringIn) {
+function duplicate(times, stringIn) {
   let reStr = stringIn;
   for (let i = 1; i < times; i++) {
     reStr = reStr.concat(stringIn);
@@ -8,7 +8,7 @@ function repeat(times, stringIn) {
   return reStr;
 }
 
-console.log(repeat(6, 'Hi'));
+console.log(duplicate(6, 'Hi'));
 
-
-// console.log(repeat(6, 'Hi'));
+let str = 'Bye';
+console.log(str.repeat(6)); //with method
